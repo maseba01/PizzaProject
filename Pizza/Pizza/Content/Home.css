@@ -1,0 +1,12 @@
+﻿body {
+    background-image: url("Images/wood4.jpg");
+}
+
+#intro {
+    background-color: transparent;
+}
+
+.intro-section {
+    width: 100%;
+    height: 400px
+}

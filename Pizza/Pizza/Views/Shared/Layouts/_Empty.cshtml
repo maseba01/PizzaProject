@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>@ViewBag.Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    @Styles.Render("~/Content/commoncss")
+
+    @RenderSection("pagecss", false)
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/commonjavascript")
+
+    @RenderSection("pagescripts", false)
+
+</body>
+</html>
+
